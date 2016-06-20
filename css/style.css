@@ -1,0 +1,228 @@
+/*
+Theme Name: Jonathan Levy Version 1
+Theme URL: http://jonathan-levy.com
+Author: Yaron Schoen
+Author URL: http://yaronschoen.com
+*/
+
+@charset "UTF-8";
+
+
+/* Reset
+-------------------------------------------------------------- */
+
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,code,del,dfn,em,img,q,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{border:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;margin:0;padding:0;}
+table{border-collapse:separate;border-spacing:0;margin-bottom:1.4em;}
+caption,th,td{text-align:left;font-weight:400;}
+blockquote:before,blockquote:after,q:before,q:after{content:"";}
+blockquote,q{quotes:;}
+a img{border:0 none;}
+
+
+
+
+/* Responsive Resets
+-------------------------------------------------------------- */
+
+@-o-viewport {width: device-width;}
+@-ms-viewport {width: device-width;}
+@viewport {width: device-width;}
+html {overflow-y: auto;}
+img, audio, video, canvas {width: 100%;}
+
+
+
+
+/* Grid
+-------------------------------------------------------------- */
+
+.container {max-width: 1100px; width:92%; margin:0px auto; position: relative;}
+.row {clear: both;}
+.grid-1, .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-half, .grid-full, .grid-unit {float: left; margin:0 1.515151515152% 1em;}
+.grid-1 {width: 13.636363636364%;}
+.grid-2 {width: 30.30303030303%;}
+.grid-3 {width: 46.969696969697%;}
+.grid-4 {width: 63.636363636364%;}
+.grid-5 {width: 80.30303030303%;}
+.grid-6 {width: 96.969696969697%;}
+
+
+
+
+/* Elements
+-------------------------------------------------------------- */
+
+body {background-color: white;}
+.header {padding: 40px 0;}
+.footer {padding: 40px 0}
+#music .footer, #discography .footer, #photos .footer, #contact .footer {border-top: 1px solid #e9e9e9; margin-top: 60px;}
+#music .header {border-bottom: 1px solid #e9e9e9;}
+.page {max-width: 500px; width: 92%; margin: auto; padding-left: 4%;padding-right: 4%;}
+img {display: block;}
+hr {border-top: 1px solid #e9e9e9; border-bottom: 0; border-right: 0; border-left: 0; margin-top: 40px; margin-bottom: 40px;}
+hr.hr-small {border-top: 1px solid #e9e9e9; border-bottom: 0; border-right: 0; border-left: 0; margin-top: 10px; margin-bottom: 10px;}
+.album {margin-bottom: 10px;}
+.album-info {height: 80px;}
+
+
+
+
+/* Backgrounds
+-------------------------------------------------------------- */
+
+.i-bg {background-color: #fafbf7; width: 100%; margin-bottom: 40px}
+#about .i-bg {background-color: #fdf8f4;}
+#contact .i-bg {background-color: #f3f9f6;}
+.i-bg .grid-1, .i-bg .grid-2, .i-bg .grid-3, .i-bg .grid-4, .i-bg .grid-5, .i-bg .grid-6, .header .grid-1, .header .grid-2, .header .grid-3, .header .grid-4, .header .grid-5, .header .grid-6, .songname-bg .grid-6 {margin-bottom: 0}
+.black-bg {background-color: #2e3838; width: 100%; padding: 40px 0; margin-top: 40px; color: #9aa0a0}
+#about .black-bg {padding: 80px 0; margin-top: 60px;}
+#music .black-bg {padding: 0; margin: 0}
+#music .black-bg .grid-6 {padding: 0; margin: 0}
+.songname-bg {background-color: #455050; padding: 40px;}
+.produced-bg {background-color: #eff2f8; padding: 20px; margin-bottom: 40px;}
+.produced-bg .grid-6, .playedwith-bg .grid-6 {margin-bottom: 0}
+
+::selection {background: #eaa461; color: white}
+::-moz-selection {background: #eaa461; color: white}
+
+
+
+/* Floats
+-------------------------------------------------------------- */
+
+.left {float:left;}
+.right {float:right;}
+.text-left {text-align: left}
+.text-right {text-align: right}
+.text-center {text-align: center}
+.clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}
+.clearfix:after{clear:both;content:'';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html
+.clearfix,*:first-child+html .clearfix{zoom:1}
+
+
+
+/* Navigation
+-------------------------------------------------------------- */
+
+#music .music, #discography .discography, #photos .photos, #about .about, #contact .contact {color:#2c3030; font-weight: 700}
+
+
+
+
+/* Videos
+-------------------------------------------------------------- */
+
+.video-container {position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;}
+.video-container iframe, .video-container object, .video-container embed {position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: block}
+
+
+
+
+/* Slider
+-------------------------------------------------------------- */
+
+ul {margin: 0; padding: 0; list-style: none;}
+.carousel-tabs {clear: both;}
+.carousel-active-tab {color: red;}
+.carousel-disabled, .mr-rotato-disabled {color: #aaa;}
+.slidecontrols .grid-6 {margin-bottom: 0}
+.slidecontrols  {padding: 20px 0}
+
+
+
+
+/* Masonry
+-------------------------------------------------------------- */
+
+.box {float:left;}
+.photo.col3 {width: 24.8%;}
+.photo.col3 img {width: 101%;}
+.col3 {width: 25%;}
+.col3 img {width: 101%;}
+#container {clear: both;}
+#container.masonry {overflow-x: hidden;overflow-y: hidden;}
+
+
+
+/* typography
+-------------------------------------------------------------- */
+
+body {font: normal 18px/26px "ff-meta-serif-web-pro", Georgia, Times, "Times New Roman", serif; color: #838888; }
+p.text {margin-bottom: 20px;}
+.strong {font-weight: bold}
+.italic {font-style: italic}
+.smallish {font-size: 16px; line-height: 22px;}
+.small {font-size: 14px; line-height: 20px;}
+.grey {color: #bfc5c5}
+.footer p {margin-top: 10px}
+.large {font-size: 24px; line-height: 32px; margin-bottom: 20px;}
+.workedwith p {margin-bottom: 10px;}
+
+/* Headers */
+h1 {color: black; font-size: 20px; line-height: 20px; margin-bottom: 0; font-family: "ff-tundra-sc-web-pro", Georgia, Times, "Times New Roman", serif;  }
+h2 {font-family: "ff-din-web-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 60px; line-height: 66px; color: #2e3838; margin-bottom: 15px}
+h3 {font-family: "ff-meta-serif-sc-web-pro", Georgia, Times, "Times New Roman", serif; font-size: 14px; line-height: 14px; text-transform: uppercase; margin-bottom: 0}
+#about h3 {margin-bottom: 30px;}
+.songname-bg h2 {color: white;}
+.produced-bg h2, .playedwith-bg h2 {font-size: 40px; margin-bottom: 0}
+.black-bg h3 {color: white; background-color: #1c2323; padding: 10px 0}
+.black-bg h3 a {color: white; text-decoration: none}
+
+/* A */
+a {color: #587a7a; -moz-transition: all 0.2s ease-out;  -o-transition: all 0.2s ease-out; -webkit-transition: all 0.2s ease-out; -ms-transition: all 0.2s ease-out; transition: all 0.2s ease-out;}
+a:hover {color: #eaa461}
+.header a{padding: 10px; display: inline-block; text-transform: uppercase; font-weight: 400; font-size: 13px; text-decoration: none}
+a.jonathan {font-family: "ff-meta-serif-sc-web-pro", Georgia, Times, "Times New Roman", serif;  text-transform: none; color: #eaa461; font-size: 18px;}
+a.next, a.prev {text-decoration: none; padding: 10px;}
+.buy-button {padding: 10px 0; display: block; background-color: #2e3838}
+a.contact-info {display: block; padding: 20px 0; background-color: #373a38; color: white; text-align: center; text-decoration: none; font-size: 24px;}
+a.contact-info:hover {background-color: #eaa461; color: white}
+
+
+
+
+/* Media Queries
+-------------------------------------------------------------- */
+
+@media screen and (max-width: 900px)  {
+	.album-info {display: none}
+	.grid-1 {width: 30.30303030303%}
+}
+
+@media screen and (max-width: 640px)  {
+  .container {width: 94%;}
+  .grid-2, .grid-3, .grid-4, .grid-5, .grid-6, .grid-half, .grid-full, .grid-unit {float: left; width:96.969696969697%; margin:0 1.515151515152% 1em;}
+  .gallery .grid-unit, .grid-half {width:46.969696969697%; margin: 0 1.515151515152% 1em;}
+  .grid-flow-opposite{float:right}
+  .header {padding: 10px;}
+  h2 {font-size: 50px; line-height: 58px; color: #2e3838; margin-bottom: 15px}
+  a.jonathan {display: block;}
+	.album-info {display: block}
+	.grid-1 {width: 46.969696969697%}
+}
+
+
+
+@media screen and (max-width: 480px) {
+	.header {padding: 10px 0;}
+	.header a {padding: 4px;font-size: 11px;}
+	a.jonathan {display: block; font-size: 14px;}
+	h2 {font-size: 40px; line-height: 48px; color: #2e3838; margin-bottom: 15px}
+	.produced-bg h2 {font-size: 30px; margin-bottom: 0}
+	h3 {font-family: "ff-meta-serif-sc-web-pro", Georgia, Times, "Times New Roman", serif; font-size: 14px; line-height: 14px; text-transform: uppercase; margin-bottom: 0}
+
+	.i-bg {margin-bottom: 20px}
+	.black-bg {padding: 20px 0; margin-top: 20px;}
+	.songname-bg {padding: 20px;}
+	.produced-bg {padding: 10px; margin-bottom: 20px;}
+
+	.photo.col3 {width: 49.8%;}
+	.col3 {width: 50%;}
+
+	hr {margin-top: 20px; margin-bottom: 20px;}
+	.grid-1 {width: 96.969696969697%}
+
+}
+
+
+

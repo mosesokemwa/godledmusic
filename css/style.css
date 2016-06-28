@@ -583,7 +583,7 @@ a {
 }
 
 a:hover {
-    color: #eaa461
+    color: #eaa461;
 }
 
 .header a {
@@ -742,4 +742,20 @@ a.contact-info:hover {
     .grid-1 {
         width: 96.969696969697%
     }
+}
+
+
+/*stuff from codepen*/
+
+.web-page {
+    /*        display: inline-block;*/
+    width: 100%;
+    max-width: 100%;
+    min-width: 435px;
+    min-height: 100px;
+    max-height: 599.98px;
+    /*    height: 435px;*/
+    /*    border: 2px black solid;*/
+    text-align: left;
+    background-color: white;
 }

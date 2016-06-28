@@ -758,7 +758,8 @@ a.contact-info:hover {
 
 /* prevents twitching or shifting of content while loading */
 
-@media screen and (min-width:768) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    /* STYLES GO HERE */
     .web-page {
         width: 100%;
         max-width: 100%;
@@ -770,11 +771,9 @@ a.contact-info:hover {
     }
     .decr {
         width: 100%;
-        max-width: 100%;
-        min-width: 435px;
-        min-height: 144px;
-        max-height: 144px;
-        text-align: left;
+        min-width: 712px;
+        min-height: 198px;
+        max-height: 305px;
         background-color: white;
     }
 }

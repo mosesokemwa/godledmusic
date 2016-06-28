@@ -26,31 +26,6 @@
 
 <body id="music">
 
-    <div id="fb-root"></div>
-    <script>
-        (function (d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s);
-            js.id = id;
-            js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
-            fjs.parentNode.insertBefore(js, fjs);
-        }(document, 'script', 'facebook-jssdk'));
-    </script>
-
-    <!--<div class="container header clearfix">
-	<div class="grid-2"><h1 class="logo">Jonathan Levi</h1></div>
-	<div class="grid-4 clearfix">
-		<ul class="nav right clearfix">
-			<li><a href="" class="music">Music</a></li>
-			<li><a href="" class="discography">Discography</a></li>
-			<li><a href="" class="photos">Photos</a></li>
-			<li><a href="" class="about">About</a></li>
-			<li><a href="" class="contact">Contact</a></li>
-		</ul>
-	</div>
-</div>-->
-
     <div class="header">
         <div class="container clearfix text-center">
             <div class="grid-6">
@@ -70,22 +45,27 @@
             <a href="#sliderName" class="prev">&larr;</a> <span class="small italic grey">Browse Songs</span> <a href="#sliderName" class="next">&rarr;</a>
         </div>
     </div>
+
+
+    <!-- music slider -->
+
     <div class="slidewrap" data-autorotate="5000">
         <ul class="slider" id="sliderName">
+
+            <!-- iframe no. 1 -->
             <li class="slide text-center">
                 <div class="black-bg">
                     <div class="container clearfix">
                         <div class="grid-6">
                             <div class="video-container">
-                                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/7hZhfXoC8ZY" frameborder="0" allowfullscreen></iframe>-->
-
+                                <!-- music iframe -->
                                 <iframe width="560" height="315" scrolling="no" frameborder="0" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/265081292&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=false&amp;show_reposts=false&amp;visual=true"></iframe>
-
-
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!-- music description -->
                 <div class="songname-bg">
                     <div class="container clearfix">
                         <div class="grid-6">
@@ -96,7 +76,15 @@
                     </div>
                 </div>
             </li>
-            <li class="slide text-center">
+
+
+
+            <!-- iframe no. 2 -->
+
+
+
+
+            <!-- <li class="slide text-center">
                 <div class="black-bg">
                     <div class="container clearfix">
                         <div class="grid-6">
@@ -115,8 +103,15 @@
                         </div>
                     </div>
                 </div>
-            </li>
-            <li class="slide text-center">
+            </li> -->
+
+
+
+
+            <!-- iframe no. 3 -->
+
+
+            <!-- <li class="slide text-center">
                 <div class="black-bg">
                     <div class="container clearfix">
                         <div class="grid-6">
@@ -135,227 +130,8 @@
                         </div>
                     </div>
                 </div>
-            </li>
-            <li class="slide text-center">
-                <div class="black-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <div class="video-container">
-                                <iframe id="ytplayer" type="text/html" width="500" height="360" src="http://www.youtube.com/embed/MspSfe2tPO0?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="songname-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <h2>Ain't Love</h2>
-                            <p>Shanee Pink</p>
-                            <p class="small italic">Produced by Jonathan</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="slide text-center">
-                <div class="black-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <div class="video-container">
-                                <iframe id="ytplayer" type="text/html" width="500" height="360" src="http://www.youtube.com/embed/zKckKBYmN_4?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="songname-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <h2>Latin Dream</h2>
-                            <p>Eyal Amir</p>
-                            <p class="small italic">Jonathan played bass</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="slide text-center">
-                <div class="black-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <div class="video-container">
-                                <iframe id="ytplayer" type="text/html" width="500" height="360" src="http://www.youtube.com/embed/iB-ao_cLGJM?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="songname-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <h2>So Far</h2>
-                            <p>HaBanot Nechama</p>
-                            <p class="small italic">Produced by Jonathan</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="slide text-center">
-                <div class="black-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <div class="video-container">
-                                <iframe id="ytplayer" type="text/html" width="500" height="360" src="http://www.youtube.com/embed/ruRsK5mCHQI?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="songname-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <h2>Summer Shade</h2>
-                            <p>Izabo</p>
-                            <p class="small italic">Jonathan played bass</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="slide text-center">
-                <div class="black-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <div class="video-container">
-                                <iframe id="ytplayer" type="text/html" width="500" height="360" src="http://www.youtube.com/embed/gzgtZBeI_3k?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="songname-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <h2>Dice</h2>
-                            <p>Charlotte &amp; Magon</p>
-                            <p class="small italic">Jonathan played bass</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="slide text-center">
-                <div class="black-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <div class="video-container">
-                                <iframe id="ytplayer" type="text/html" width="500" height="360" src="http://www.youtube.com/embed/kAGFVTCa0oM?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="songname-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <h2>You Want it, I Want it</h2>
-                            <p>Onili</p>
-                            <p class="small italic">Produced by Jonathan</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="slide text-center">
-                <div class="black-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <div class="video-container">
-                                <iframe id="ytplayer" type="text/html" width="500" height="360" src="http://www.youtube.com/embed/Erlsbi_R4UQ?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="songname-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <h2>Mushrooms</h2>
-                            <p>Yael Dekelbaum</p>
-                            <p class="small italic">Produced by Jonathan</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="slide text-center">
-                <div class="black-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <div class="video-container">
-                                <iframe id="ytplayer" type="text/html" width="500" height="360" src="http://www.youtube.com/embed/pK9pzw9xOPM?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="songname-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <h2>Roots</h2>
-                            <p>Dana Adini</p>
-                            <p class="small italic">Produced by Jonathan</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="slide text-center">
-                <div class="black-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <div class="video-container">
-                                <iframe id="ytplayer" type="text/html" width="500" height="360" src="http://www.youtube.com/embed/dD9xqk8e2lQ?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="songname-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <h2>Boe Boe</h2>
-                            <p>Alaev Family &amp; Tamir Muskat</p>
-                            <p class="small italic">Jonathan played bass</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="slide text-center">
-                <div class="black-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <div class="video-container">
-                                <iframe id="ytplayer" type="text/html" width="500" height="360" src="http://www.youtube.com/embed/WmcQ62AW7Jc?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="songname-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <h2>Ah ah ah</h2>
-                            <p>Efrat Gosh</p>
-                            <p class="small italic">Jonathan played bass</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
-            <li class="slide text-center">
-                <div class="black-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <div class="video-container">
-                                <iframe id="ytplayer" type="text/html" width="500" height="360" src="http://www.youtube.com/embed/C4r-Ct0IeIs?controls=0&showinfo=0" frameborder="0" allowfullscreen></iframe>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="songname-bg">
-                    <div class="container clearfix">
-                        <div class="grid-6">
-                            <h2>Cook Me</h2>
-                            <p>Izabo</p>
-                            <p class="small italic">Jonathan played bass</p>
-                        </div>
-                    </div>
-                </div>
-            </li>
+            </li> -->
+
         </ul>
     </div>
     <div class="footer">

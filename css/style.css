@@ -1,8 +1,8 @@
 /*
-Theme Name: Jonathan Levy Version 1
-Theme URL: http://jonathan-levy.com
-Author: Yaron Schoen
-Author URL: http://yaronschoen.com
+Theme Name: God Led Music Version 1
+Theme URL: http://godledmusic.com
+Author: Moses Okemwa
+Author URL: http://mosesokemwa.com
 */
 
 @charset "UTF-8";
@@ -694,12 +694,16 @@ a.contact-info:hover {
         padding: 4px;
         font-size: 11px;
     }
+    web-page img {
+        height: 400px;
+    }
     a.jonathan {
         display: block;
         font-size: 14px;
     }
     h2 {
         font-size: 40px;
+        font-family: "ff-din-web-condensed", "Helvetica Neue", Helvetica, Arial, sans-serif;
         line-height: 48px;
         color: #2e3838;
         margin-bottom: 15px
@@ -709,8 +713,8 @@ a.contact-info:hover {
         margin-bottom: 0
     }
     h3 {
-        font-family: "ff-meta-serif-sc-web-pro", Georgia, Times, "Times New Roman", serif;
         font-size: 14px;
+        font-family: "ff-meta-serif-sc-web-pro", inherit;
         line-height: 14px;
         text-transform: uppercase;
         margin-bottom: 0
@@ -721,6 +725,7 @@ a.contact-info:hover {
     .black-bg {
         padding: 20px 0;
         margin-top: 20px;
+        width: 100%;
     }
     .songname-bg {
         padding: 20px;
@@ -742,20 +747,34 @@ a.contact-info:hover {
     .grid-1 {
         width: 96.969696969697%
     }
+    .decr {
+        width: 100%;
+        min-width: 388px;
+        min-height: 200px;
+        max-height: 144px;
+    }
 }
 
 
-/*stuff from codepen*/
+/* prevents twitching or shifting of content while loading */
 
-.web-page {
-    /*        display: inline-block;*/
-    width: 100%;
-    max-width: 100%;
-    min-width: 435px;
-    min-height: 100px;
-    max-height: 599.98px;
-    /*    height: 435px;*/
-    /*    border: 2px black solid;*/
-    text-align: left;
-    background-color: white;
+@media screen and (min-width:768) {
+    .web-page {
+        width: 100%;
+        max-width: 100%;
+        min-width: 435px;
+        min-height: 100px;
+        max-height: 599.98px;
+        text-align: left;
+        background-color: white;
+    }
+    .decr {
+        width: 100%;
+        max-width: 100%;
+        min-width: 435px;
+        min-height: 144px;
+        max-height: 144px;
+        text-align: left;
+        background-color: white;
+    }
 }

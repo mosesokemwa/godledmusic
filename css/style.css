@@ -180,11 +180,11 @@ body {
 }
 
 .header {
-    padding: 40px 0;
+    padding: 30px 0;
 }
 
 .footer {
-    padding: 40px 0
+    padding: 30px 0
 }
 
 #music .footer,
@@ -192,7 +192,7 @@ body {
 #photos .footer,
 #contact .footer {
     border-top: 1px solid #e9e9e9;
-    margin-top: 60px;
+    margin-top: 50px;
 }
 
 #music .header {
@@ -276,12 +276,12 @@ hr.hr-small {
     width: 100%;
     padding: 40px 0;
     margin-top: 40px;
-    color: #9aa0a0
+    color: #9aa0a0;
 }
 
 #about .black-bg {
     padding: 80px 0;
-    margin-top: 60px;
+    margin-top: 60;
 }
 
 #music .black-bg {
@@ -297,12 +297,13 @@ hr.hr-small {
 .songname-bg {
     background-color: #455050;
     padding: 40px;
+    /*    padding: 10px;*/
 }
 
 .produced-bg {
     background-color: #eff2f8;
-    padding: 20px;
-    margin-bottom: 40px;
+    /*    padding: 20px;*/
+    /*    margin-bottom: 40px;*/
 }
 
 .produced-bg .grid-6,
@@ -388,8 +389,10 @@ hr.hr-small {
 
 .video-container {
     position: relative;
-    padding-bottom: 56.25%;
-    padding-top: 30px;
+    /*        padding-bottom: 56.25%;*/
+    padding-bottom: 50%;
+    /*    padding-top: 30px;*/
+    padding-top: 0;
     height: 0;
     overflow: hidden;
 }

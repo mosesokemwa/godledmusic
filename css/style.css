@@ -598,7 +598,7 @@ a:hover {
     text-decoration: none;
 }
 
-a.jonathan {
+a.godledmusic {
     font-family: "ff-meta-serif-sc-web-pro", Georgia, Times, "Times New Roman", serif;
     text-transform: none;
     color: #eaa461;
@@ -678,7 +678,7 @@ a.contact-info:hover {
         color: #2e3838;
         margin-bottom: 15px
     }
-    a.jonathan {
+    a.godledmusic {
         display: block;
     }
     .album-info {
@@ -700,7 +700,7 @@ a.contact-info:hover {
     web-page img {
         height: 400px;
     }
-    a.jonathan {
+    a.godledmusic {
         display: block;
         font-size: 14px;
     }

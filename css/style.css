@@ -548,8 +548,13 @@ h3 {
     margin-bottom: 0
 }
 
-#about h3 {
-    margin-bottom: 30px;
+#about h2 {
+    font-size: 40px;
+}
+
+#about .abt p {
+    font-size: 30px;
+    font-weight: 100;
 }
 
 .songname-bg h2 {

@@ -557,6 +557,10 @@ h3 {
     font-weight: 100;
 }
 
+#about img {
+    margin-bottom: 0;
+}
+
 .songname-bg h2 {
     color: white;
 }

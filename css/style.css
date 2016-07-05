@@ -549,12 +549,7 @@ h3 {
 }
 
 #about h2 {
-    font-size: 40px;
-}
-
-#about .abt p {
     font-size: 30px;
-    font-weight: 100;
 }
 
 #about img {
@@ -639,6 +634,13 @@ a.contact-info {
 a.contact-info:hover {
     background-color: #eaa461;
     color: white
+}
+
+
+/* #photos */
+
+#photos > div > .top {
+    margin-bottom: 1em;
 }
 
 

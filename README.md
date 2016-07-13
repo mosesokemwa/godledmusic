@@ -1,5 +1,7 @@
 #### Folder structure
 
+![God Led Music](img/God-led2.jpg)
+
 ```    .
     ├── about.html
     ├── contact.html

@@ -1,8 +1,6 @@
 #### Folder structure
 
-```
-
-    .
+```    .
     ├── about.html
     ├── contact.html
     ├── css

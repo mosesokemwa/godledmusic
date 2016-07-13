@@ -1,6 +1,6 @@
 #### Folder structure
 
-![God Led Music](img/God-led2.jpg)
+![God Led Music](img/godled.jpg)
 
 ```    .
     ├── about.html

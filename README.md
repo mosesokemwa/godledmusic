@@ -1,7 +1,16 @@
+
+![God Led Music](img/walk.jpg)
+
+
+***God-led Music is a social movement that exists to transform lives through music and creative arts.***
+
+***It's made up of most vibrant mature individuals mentoring the youth***
+
+***In order to influence each, coach and motivate individuals in Kenya and beyond***
+
+
+
 #### Folder structure
-
-![God Led Music](img/godled.jpg)
-
 ```    .
     ├── about.html
     ├── contact.html

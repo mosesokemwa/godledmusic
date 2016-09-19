@@ -10,7 +10,7 @@
 
 
 
-#### Folder structure
+## Folder structure
 ```    .
     ├── about.html
     ├── contact.html
